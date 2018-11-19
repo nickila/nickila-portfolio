@@ -1,0 +1,173 @@
+body {
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+.backdrop {
+    background-color: rgb(39, 176, 255);
+    border-radius: 15px;
+}
+.onLoad {
+    text-align: center;
+}
+.profilePic {
+    width: 90%;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    max-width: 350px;
+}
+
+
+.subtitle {
+    color: rgb(21, 84, 121);
+    letter-spacing: 5px;
+    line-height: 5px;
+    margin-bottom: 3vw;
+    margin-top: 5px;
+    font-size: 4vw;
+    margin-left: 1vw;
+}
+.display-1 {
+    color: white;
+    font-size: 12vw;
+    
+}
+
+.display-1:hover {
+    cursor: pointer;
+}
+
+.about, .portfolio, .contact {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.about {
+    background-color: rgb(255, 42, 42);
+    /* margin-left: 10px;
+    margin-right: 0; */
+}
+
+.portfolio {
+    background-color: rgb(118, 255, 118);
+    /* margin-left: 0;
+    margin-right: 0; */
+}
+.contact {
+    background-color: rgb(140, 213, 255);
+    /* margin-left: 0;
+    margin-right: 10px; */
+}
+
+.heading {
+    color: white;
+    font-size: 4vw;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.heading:hover {
+    cursor: pointer;
+}
+
+.form-group {
+    padding: 10px;
+}
+.hide {
+    display: none;
+    
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+.form-control {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gif {
+    width: 10vw;
+}
+
+#house {
+    width: 100%;
+}
+
+.sites {
+    width: 100%;
+    min-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 5px transparent solid;
+    
+}
+.sites:hover {
+    cursor: pointer;
+    border: 5px rgb(39, 176, 255) solid;
+    opacity: 0.80;
+}
+.onClick {
+    width: 96%;
+    min-height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+.bio {
+    color: gray;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+.profilePicClick {
+    margin: 15px;
+    float: left;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.center {
+    text-align: center;
+}
+.category {
+    color: gray;
+    font-size: 3vw;
+
+}
+
+.skills {
+    color: darkgray;
+    font-size: 2vw;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.left {
+    float: left;
+    text-align: left;
+}
+
+.siteInfo {
+    color: gray;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.progress {
+    margin-right: 30px;
+    margin-left: 30px;
+}
