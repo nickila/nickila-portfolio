@@ -126,12 +126,13 @@ body {
 .bio {
     color: gray;
     font-size: 1.5vw;
-    padding: 2vw;
+    padding-top: 15px;
+    margin-bottom: 0;
 }
 .profilePicClick {
     margin: 15px;
     float: left;
-    width: 50%;
+    width: 100%;
     max-width: 500px;
     border-radius: 15px;
 }
@@ -140,14 +141,16 @@ body {
     text-align: center;
 }
 .category {
-    color: gray;
+    color: rgb(255, 42, 42);
     font-size: 3vw;
+    margin-left: 15px;
 
 }
 
 .skills {
-    color: darkgray;
+    color: gray;
     font-size: 2vw;
+    margin-left: 15px;
 }
 .right {
     float: right;
@@ -170,4 +173,11 @@ body {
 .progress {
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.tech-skills {
+    padding-left: 30px;
+}
+.design-skills {
+    padding-right: 20px;
 }
