@@ -19,7 +19,7 @@ body {
     border-radius: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
     max-width: 350px;
 }
 
@@ -78,10 +78,7 @@ body {
     display: none;   
 }
 
-.section {
-    margin-bottom: 20px;
 
-}
 
 .form-control {
     max-width: 500px;
@@ -91,10 +88,6 @@ body {
 
 .gif {
     width: 10vw;
-}
-
-#house {
-    width: 100%;
 }
 
 .sites {
@@ -223,4 +216,16 @@ footer {
     font-size: 22px;
     color: rgb(225, 244, 255);
     padding: 15px;
+}
+
+.message {
+    font-size: 3vw;
+    color: rgb(21, 84, 121);
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+.p {
+    margin-top: 15px;
 }

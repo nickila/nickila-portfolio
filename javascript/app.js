@@ -17,6 +17,10 @@ $(document).ready(function () {
     $("#aboutHeader").on("click", function() {
         $(this).siblings().toggleClass("hide");
     });
-    
+    $(".btn").on("click", function(event) {
+        event.preventDefault();
+        $("form").html("");
+        $(".message").append("your message has been submitted.<br /><br />thank you.")
+    })
 
 });
