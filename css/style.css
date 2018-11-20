@@ -6,10 +6,14 @@ body {
 .backdrop {
     background-color: rgb(39, 176, 255);
     border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
 .onLoad {
     text-align: center;
 }
+
 .profilePic {
     width: 90%;
     border-radius: 15px;
@@ -18,7 +22,6 @@ body {
     margin-bottom: 10px;
     max-width: 350px;
 }
-
 
 .subtitle {
     color: rgb(21, 84, 121);
@@ -29,10 +32,10 @@ body {
     font-size: 4vw;
     margin-left: 1vw;
 }
+
 .display-1 {
     color: white;
-    font-size: 12vw;
-    
+    font-size: 12vw;   
 }
 
 .display-1:hover {
@@ -41,25 +44,19 @@ body {
 
 .about, .portfolio, .contact {
     width: 100%;
-    border-radius: 15px;
-    
+    border-radius: 15px;  
 }
 
 .about {
     background-color: rgb(255, 42, 42);
-    /* margin-left: 10px;
-    margin-right: 0; */
 }
 
 .portfolio {
     background-color: rgb(118, 255, 118);
-    /* margin-left: 0;
-    margin-right: 0; */
 }
+
 .contact {
     background-color: rgb(140, 213, 255);
-    /* margin-left: 0;
-    margin-right: 10px; */
 }
 
 .heading {
@@ -68,6 +65,7 @@ body {
     padding-left: 15px;
     padding-top: 5px;
 }
+
 .heading:hover {
     cursor: pointer;
 }
@@ -75,9 +73,9 @@ body {
 .form-group {
     padding: 10px;
 }
+
 .hide {
-    display: none;
-    
+    display: none;   
 }
 
 .section {
@@ -108,11 +106,13 @@ body {
     border: 5px transparent solid;
     
 }
+
 .sites:hover {
     cursor: pointer;
     border: 5px rgb(39, 176, 255) solid;
     opacity: 0.80;
 }
+
 .onClick {
     width: 96%;
     min-height: 700px;
@@ -120,19 +120,22 @@ body {
     margin-left: auto;
     background-color: white;
     border-radius: 15px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
+
 .bio {
     color: gray;
-    font-size: 1.5vw;
+    font-size: 18px;
     padding-top: 15px;
     margin-bottom: 0;
+    padding-right: 15px;
+    padding-left: 10px;
 }
+
 .profilePicClick {
-    margin: 15px;
+    margin: 10px;
     float: left;
-    width: 100%;
+    width: 95%;
     max-width: 500px;
     border-radius: 15px;
 }
@@ -140,6 +143,7 @@ body {
 .center {
     text-align: center;
 }
+
 .category {
     color: rgb(255, 42, 42);
     font-size: 3vw;
@@ -152,10 +156,12 @@ body {
     font-size: 2vw;
     margin-left: 15px;
 }
+
 .right {
     float: right;
     text-align: right;
 }
+
 .left {
     float: left;
     text-align: left;
@@ -173,11 +179,48 @@ body {
 .progress {
     margin-right: 30px;
     margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .tech-skills {
     padding-left: 30px;
 }
+
 .design-skills {
     padding-right: 20px;
+}
+
+.btn-primary {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color:rgb(39, 176, 255);
+    border-color: rgb(39, 176, 255);
+}
+
+.btn-primary:hover {
+    background-color:rgb(0, 140, 221);
+    border-color: rgb(0, 140, 221);
+}
+
+.link {
+    color:rgb(0, 140, 221);
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    color: rgb(0, 83, 131);
+}
+
+a:hover {
+    text-decoration: none;   
+}
+
+footer {
+    text-align: right;
+    font-size: 22px;
+    color: rgb(225, 244, 255);
+    padding: 15px;
 }
